@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
+  "homepage": "https://hibikinekage.github.io/self-handshake-webrtc",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^1.2.0",
     "parcel-bundler": "^1.9.4",
     "typescript": "^2.9.2",
     "typescript-styled-plugin": "^0.8.1"
