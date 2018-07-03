@@ -6,7 +6,7 @@
   "homepage": "https://hibikinekage.github.io/self-handshake-webrtc",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url https://hibikinekage.github.io/self-handshake-webrtc/",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
