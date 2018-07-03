@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "esnext",
+    "plugins": [{
+      "name": "typescript-styled-plugin"
+    }]
+  }
+}
